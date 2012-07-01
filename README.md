@@ -27,12 +27,24 @@ geonames_allcountries.sh - all countries combined in one file
 
 geonames_country.sh - features for country with iso code XX, structure similar to all countries file. You will be prompted for country code in script
 
-geonames_cities1000.sh - all cities with a population > 1000 or seats of adm div (ca 80.000), see 'geoname' table for columns
+geonames_cities1000.sh - all cities with a population > 1000 or seats of adm div (ca 80.000)
 
-geonames_cities5000.sh - all cities with a population > 5000 or PPLA (ca 40.000), see 'geoname' table for columns
+geonames_cities5000.sh - all cities with a population > 5000 or PPLA (ca 40.000)
 
-geonames_cities15000.sh - all cities with a population > 15000 or capitals (ca 20.000), see 'geoname' table for columns
+geonames_cities15000.sh - all cities with a population > 15000 or capitals (ca 20.000)
 
 geonames_admin1_codes.sh - ascii names of admin divisions
 
 geonames_alternate_names.sh - alternate names with language codes and geonameId
+
+### MaxMind ###
+
+maxmind_geoip_country.sh - IPv4 ranges for countries
+
+maxmind_geoipv6.sh - IPv6 ranges for countries
+
+maxmind_geolitecity.sh - GeoLite City database
+
+maxmind_worldcitiespop.sh - World Cities with Population, Latitude, Longitude
+
+maxmind_region.sh - FIPS 10-4 Subcountry codes
