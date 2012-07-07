@@ -19,6 +19,8 @@ chmod +x script_name.sh
 
 Example: ./geonames_admin1_codes.sh -uroot -pPASSWORD -h127.0.0.1
 
+Article about geo databases and how to use this set of scripts http://anton.logvinenko.name/en/blog/geo-databases.html
+
 ## Scripts description
 
 ### Geonames.org ###
