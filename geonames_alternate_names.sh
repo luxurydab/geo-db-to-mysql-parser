@@ -24,7 +24,7 @@ unzip -o alternateNames.zip
 	  `alternateNameId` int(11) NOT NULL AUTO_INCREMENT,
 	  `geonameid` int(11) DEFAULT NULL,
 	  `isolanguage` varchar(7) DEFAULT NULL,
-	  `alternate_name` varchar(200) DEFAULT NULL,
+	  `alternate_name` varchar(200) COLLATE utf8_unicode_ci  DEFAULT NULL,
 	  `isPreferredName` int(1) DEFAULT NULL,
 	  `isShortName` int(1) DEFAULT NULL,
 	  `isColloquial` int(1) DEFAULT NULL,

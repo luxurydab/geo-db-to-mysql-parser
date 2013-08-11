@@ -38,7 +38,7 @@ unzip -o $cc.zip
 	  `geonameid` int(11) NOT NULL AUTO_INCREMENT,
 	  `name` varchar(200) DEFAULT NULL,
 	  `asciiname` varchar(200) DEFAULT NULL,
-	  `alternatenames` varchar(5000) DEFAULT NULL,
+	  `alternatenames` varchar(5000)  COLLATE utf8_unicode_ci DEFAULT NULL,
 	  `latitude` double DEFAULT NULL,
 	  `longitude` double DEFAULT NULL,
 	  `feature_class` varchar(1) DEFAULT NULL,

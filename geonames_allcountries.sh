@@ -31,9 +31,9 @@ unzip -o allCountries.zip
 /usr/bin/mysql $@ -e 'CREATE DATABASE IF NOT EXISTS '$database';
 	  USE '$database'; CREATE TABLE IF NOT EXISTS '$table' (
 	  `geonameid` int(11) NOT NULL AUTO_INCREMENT,
-	  `name` varchar(200) DEFAULT NULL,
-	  `asciiname` varchar(200) DEFAULT NULL,
-	  `alternatenames` varchar(5000) DEFAULT NULL,
+	  `name` varchar(200) COLLATE utf8_unicode_ci DEFAULT NULL,
+	  `asciiname` varchar(200) COLLATE utf8_unicode_ci DEFAULT NULL,
+	  `alternatenames` varchar(5000) COLLATE utf8_unicode_ci DEFAULT NULL,
 	  `latitude` double DEFAULT NULL,
 	  `longitude` double DEFAULT NULL,
 	  `feature_class` varchar(1) DEFAULT NULL,
